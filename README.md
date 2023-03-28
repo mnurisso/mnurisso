@@ -6,5 +6,4 @@ What I'm currently working on? Visit my [website](https://mnurisso.github.io/) t
 ![Stats Overview](https://raw.githubusercontent.com/mnurisso/github-stats-transparent/output/generated/overview.svg)
 ![Most Used Languages](https://raw.githubusercontent.com/mnurisso/github-stats-transparent/output/generated/languages.svg)
 
-![Language Overview](https://wakatime.com/share/@7618196a-f09b-49a2-b65c-597597db254f/b20ab14d-f50f-436e-ab94-29a545c6d585.svg)
-<figure><embed src="https://wakatime.com/share/@7618196a-f09b-49a2-b65c-597597db254f/b20ab14d-f50f-436e-ab94-29a545c6d585.svg"></embed></figure>
+<img src='https://wakatime.com/share/@7618196a-f09b-49a2-b65c-597597db254f/f76053d7-bc39-41b9-ad6a-d10a13edf974.svg' alt='Language Overview' width='50%' height='50%'>
