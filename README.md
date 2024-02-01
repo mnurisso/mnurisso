@@ -1,8 +1,8 @@
 ## Hello! I'm Matteo Nurisso 👋
 
-I'm a PhD in Astrophysics and now a scientific programmer at [CNR](https://www.isac.cnr.it/it/content/torino) in Turin.
+I'm a PhD in Physics and now a PostDoc at [CNR](https://www.isac.cnr.it/en/users/matteo-nurisso) in Turin.
 
-I'm currently mainly involved in the [Destination Earth](https://destination-earth.eu/) project.
+I'm currently involved in the [Destination Earth](https://destination-earth.eu/) project and in the project EPOCHAL (Earth system modeling of PaleOClimatic HyperthermALs).
 
 What else I'm working on? Visit my [website](https://mnurisso.github.io/) to find out more about me and my projects.
 
