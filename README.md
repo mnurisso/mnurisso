@@ -2,7 +2,7 @@
 
 I'm a PhD in Physics and now a PostDoc at [CNR](https://www.isac.cnr.it/en/users/matteo-nurisso) in Turin.
 
-I'm currently involved in the [Destination Earth](https://destination-earth.eu/) project and in the project EPOCHAL (Earth system modeling of PaleOClimatic HyperthermALs).
+I'm currently involved in the project [Destination Earth](https://destination-earth.eu/) and EPOCHAL (Earth system modeling of PaleOClimatic HyperthermALs).
 
 What else I'm working on? Visit my [website](https://mnurisso.github.io/) to find out more about me and my projects.
 
