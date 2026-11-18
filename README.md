@@ -1,12 +1,59 @@
-## Hello! I'm Matteo Nurisso 👋
+<h1 align="center">Hi, I'm Matteo Nurisso 👋</h1>
 
-I'm a PhD in Physics and now a Researcher at [Politecnico](www.polito.it/personale?p=matteo.nurisso) in Turin.
+<p align="center">
+  <b>Climate scientist &amp; scientific software developer</b><br>
+  Researcher at <a href="https://www.polito.it/personale?p=matteo.nurisso">Politecnico di Torino</a> since Dec 2025 · PhD, SISSA · Based in Trieste 🇮🇹
+</p>
 
-I'm currently involved in the project [Destination Earth](https://destination-earth.eu/) and EPOCHAL (Earth system modeling of PaleOClimatic HyperthermALs), a project dedicated to the development of a low resolution version of [EC-EARTH4](https://ec-earth.org/) for paleoclimate purposes.
+<p align="center">
+  <a href="https://mnurisso.github.io/"><img alt="Website" src="https://img.shields.io/badge/Website-mnurisso.github.io-268bd2"></a>
+  <a href="https://www.linkedin.com/in/matteo-nurisso/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://orcid.org/0000-0002-5962-0680"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white"></a>
+  <a href="https://www.researchgate.net/profile/Matteo-Nurisso"><img alt="ResearchGate" src="https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white"></a>
+</p>
 
-For Destination Earth I'm currently developing [AQUA](https://github.com/DestinE-Climate-DT/AQUA) (Application for QUality Assessment), a model evaluation framework designed for running diagnostics on high-resolution climate models.
+## 🌍 What I'm working on
 
-What else I'm working on? Visit my [website](https://mnurisso.github.io/) to find out more about me and my projects.
+- **[Destination Earth](https://destination-earth.eu/) – Climate Change Adaptation Digital Twin**: evaluating 5 km climate simulations (IFS-NEMO, IFS-FESOM, ICON).
+- **[AQUA](https://github.com/DestinE-Climate-DT/AQUA)** (Application for QUality Assessment): the Python framework for running diagnostics on high-resolution climate models, now part of the operational ClimateDT workflow. I'm one of its main developers, together with [AQUA-diagnostics](https://github.com/DestinE-Climate-DT/AQUA-diagnostics).
+- **EPOCHAL** (Earth system modeling of PaleOClimatic HyperthermALs), a PRIN project: a low-resolution [EC-Earth 4](https://ec-earth.org/) for long paleoclimate runs.
 
-![Stats Overview](https://raw.githubusercontent.com/mnurisso/github-stats-transparent/output/generated/overview.svg)
-![Most Used Languages](https://raw.githubusercontent.com/mnurisso/github-stats-transparent/output/generated/languages.svg)
+## 📄 Highlighted papers
+
+- **AQUA v1.0.0: The Application for QUality Assessment for the Climate Change Adaptation Digital Twin – the core engine**
+  Nurisso, M. et al. · *Geoscientific Model Development*, 2026 · [doi:10.5194/gmd-19-7725-2026](https://doi.org/10.5194/gmd-19-7725-2026)
+- **The Destination Earth digital twin for climate change adaptation**
+  Doblas-Reyes, F. J. et al. · *Geoscientific Model Development*, 2026 · [doi:10.5194/gmd-19-2821-2026](https://doi.org/10.5194/gmd-19-2821-2026)
+
+<!-- add more highlighted papers here, newest first -->
+
+→ Full list on my [website](https://mnurisso.github.io/).
+
+## 🛠️ Software I develop
+
+<!-- CONTRIBUTIONS:START -->
+| Repo | What it is | Role | My commits | My merged PRs |
+|---|---|---|---:|---:|
+| [AQUA](https://github.com/DestinE-Climate-DT/AQUA) | Core framework for evaluating high-resolution climate models | Main developer | 4,479 | 520 |
+| [AQUA-diagnostics](https://github.com/DestinE-Climate-DT/AQUA-diagnostics) | Diagnostic suite for online monitoring of ClimateDT simulations | Main contributor | 276 | 23 |
+| [Climate-DT-catalog](https://github.com/DestinE-Climate-DT/Climate-DT-catalog) | Catalog describing the ClimateDT simulations for AQUA | Main contributor | 534 | 95 |
+| [smmregrid](https://github.com/jhardenberg/smmregrid) | Compact regridder using sparse matrix multiplication, used by AQUA | Contributor | 2 | 1 |
+<!-- CONTRIBUTIONS:END -->
+
+<sub>Table refreshed weekly from the GitHub API.</sub>
+
+## 🤝 AQUA-friends
+
+I'm a maintainer of **[AQUA-friends](https://github.com/AQUA-friends)**, a community space for experimental, external and independently maintained diagnostics built on top of AQUA core. It lets projects reuse AQUA's data access, fixing and regridding without being part of the official ClimateDT releases. Landing page: [aqua-friends.github.io](https://aqua-friends.github.io/).
+
+- [aqua-catalog-viewer](https://github.com/AQUA-friends/aqua-catalog-viewer): explore the AQUA catalogs from the browser.
+- [AQUA-claima](https://github.com/AQUA-friends/AQUA-claima): AQUA configuration for CLAIMA.
+- [AQUA-friends-template](https://github.com/AQUA-friends/AQUA-friends-template): starting point for a new AQUA friend.
+
+<!-- add more AQUA-friends repos here as they become public -->
+
+## 🔭 Previously
+
+Magnetic reconnection and particle acceleration in relativistic MHD simulations (PhD, SISSA).
+
+More on my [website](https://mnurisso.github.io/): research, publications, talks and outreach.
