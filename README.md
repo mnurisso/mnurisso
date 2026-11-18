@@ -22,6 +22,8 @@
 
 - **AQUA v1.0.0: The Application for QUality Assessment for the Climate Change Adaptation Digital Twin – the core engine**
   Nurisso, M. et al. · *Geoscientific Model Development*, 2026 · [doi:10.5194/gmd-19-7725-2026](https://doi.org/10.5194/gmd-19-7725-2026)
+- **The Destination Earth digital twin for climate change adaptation**
+  Doblas-Reyes, F. J. et al. · *Geoscientific Model Development*, 2026 · [doi:10.5194/gmd-19-2821-2026](https://doi.org/10.5194/gmd-19-2821-2026)
 
 <!-- add more highlighted papers here, newest first -->
 
@@ -30,14 +32,25 @@
 ## 🛠️ Software I develop
 
 <!-- CONTRIBUTIONS:START -->
-| Repo | Role | My commits | My merged PRs |
-|---|---|---:|---:|
-| [AQUA](https://github.com/DestinE-Climate-DT/AQUA) | Main developer | 4,479 | 520 |
-| [AQUA-diagnostics](https://github.com/DestinE-Climate-DT/AQUA-diagnostics) | Main contributor | 276 | 23 |
-| [Climate-DT-catalog](https://github.com/DestinE-Climate-DT/Climate-DT-catalog) | Main contributor | 534 | 95 |
+| Repo | What it is | Role | My commits | My merged PRs |
+|---|---|---|---:|---:|
+| [AQUA](https://github.com/DestinE-Climate-DT/AQUA) | Core framework for evaluating high-resolution climate models | Main developer | 4,479 | 520 |
+| [AQUA-diagnostics](https://github.com/DestinE-Climate-DT/AQUA-diagnostics) | Diagnostic suite for online monitoring of ClimateDT simulations | Main contributor | 276 | 23 |
+| [Climate-DT-catalog](https://github.com/DestinE-Climate-DT/Climate-DT-catalog) | Catalog describing the ClimateDT simulations for AQUA | Main contributor | 534 | 95 |
+| [smmregrid](https://github.com/jhardenberg/smmregrid) | Compact regridder using sparse matrix multiplication, used by AQUA | Contributor | 2 | 1 |
 <!-- CONTRIBUTIONS:END -->
 
 <sub>Table refreshed weekly from the GitHub API.</sub>
+
+## 🤝 AQUA-friends
+
+I'm a maintainer of **[AQUA-friends](https://github.com/AQUA-friends)**, a community space for experimental, external and independently maintained diagnostics built on top of AQUA core. It lets projects reuse AQUA's data access, fixing and regridding without being part of the official ClimateDT releases. Landing page: [aqua-friends.github.io](https://aqua-friends.github.io/).
+
+- [aqua-catalog-viewer](https://github.com/AQUA-friends/aqua-catalog-viewer): explore the AQUA catalogs from the browser.
+- [AQUA-claima](https://github.com/AQUA-friends/AQUA-claima): AQUA configuration for CLAIMA.
+- [AQUA-friends-template](https://github.com/AQUA-friends/AQUA-friends-template): starting point for a new AQUA friend.
+
+<!-- add more AQUA-friends repos here as they become public -->
 
 ## 🔭 Previously
 

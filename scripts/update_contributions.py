@@ -9,10 +9,15 @@ import subprocess
 from pathlib import Path
 
 USER = "mnurisso"
-REPOS = [  # (owner/repo, role)
-    ("DestinE-Climate-DT/AQUA", "Main developer"),
-    ("DestinE-Climate-DT/AQUA-diagnostics", "Main contributor"),
-    ("DestinE-Climate-DT/Climate-DT-catalog", "Main contributor"),
+REPOS = [  # (owner/repo, role, what it is)
+    ("DestinE-Climate-DT/AQUA", "Main developer",
+     "Core framework for evaluating high-resolution climate models"),
+    ("DestinE-Climate-DT/AQUA-diagnostics", "Main contributor",
+     "Diagnostic suite for online monitoring of ClimateDT simulations"),
+    ("DestinE-Climate-DT/Climate-DT-catalog", "Main contributor",
+     "Catalog describing the ClimateDT simulations for AQUA"),
+    ("jhardenberg/smmregrid", "Contributor",
+     "Compact regridder using sparse matrix multiplication, used by AQUA"),
 ]
 README = Path(__file__).resolve().parent.parent / "README.md"
 
@@ -26,13 +31,13 @@ def gh(path, jq, paginate=False):
     return sum(int(x) for x in out)
 
 
-rows = ["| Repo | Role | My commits | My merged PRs |", "|---|---|---:|---:|"]
-for repo, role in REPOS:
+rows = ["| Repo | What it is | Role | My commits | My merged PRs |", "|---|---|---|---:|---:|"]
+for repo, role, what in REPOS:
     commits = gh(f"repos/{repo}/contributors?per_page=100",
                  f'.[] | select(.login=="{USER}") | .contributions', paginate=True)
     prs = gh(f"search/issues?q=repo:{repo}+author:{USER}+type:pr+is:merged&per_page=1",
              ".total_count")
-    rows.append(f"| [{repo.split('/')[1]}](https://github.com/{repo}) | {role} | {commits:,} | {prs:,} |")
+    rows.append(f"| [{repo.split('/')[1]}](https://github.com/{repo}) | {what} | {role} | {commits:,} | {prs:,} |")
 
 table = "\n".join(rows)
 text = README.read_text()
