@@ -32,7 +32,7 @@
 <!-- CONTRIBUTIONS:START -->
 | Repo | Role | My commits | My merged PRs |
 |---|---|---:|---:|
-| [AQUA](https://github.com/DestinE-Climate-DT/AQUA) | Main developer | 4,478 | 519 |
+| [AQUA](https://github.com/DestinE-Climate-DT/AQUA) | Main developer | 4,479 | 520 |
 | [AQUA-diagnostics](https://github.com/DestinE-Climate-DT/AQUA-diagnostics) | Main contributor | 276 | 23 |
 | [Climate-DT-catalog](https://github.com/DestinE-Climate-DT/Climate-DT-catalog) | Main contributor | 534 | 95 |
 <!-- CONTRIBUTIONS:END -->
